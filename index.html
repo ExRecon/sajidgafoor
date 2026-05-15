@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sajid Ghafoor — Senior Infrastructure & Enterprise Risk Management Leader. 14+ years delivering strategic risk frameworks for mega infrastructure programs across the Gulf region.">
+    <meta name="keywords" content="enterprise risk management, infrastructure risk, programme risk manager, Saudi Vision 2030, mega projects, PMO, risk governance, Sajid Ghafoor">
+    <meta name="author" content="Sajid Ghafoor">
+    <meta property="og:title" content="Sajid Ghafoor | Enterprise Risk & Infrastructure Leadership">
+    <meta property="og:description" content="Engineering Certainty in Complex Environments. Strategic Risk Leadership for Mega Infrastructure Programs.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://example.com/og-image.jpg">
+    <meta property="og:url" content="https://sajidghafoor.com">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Sajid Ghafoor | Enterprise Risk Leadership">
+    <meta name="twitter:description" content="Strategic Risk Leadership for Mega Infrastructure Programs. 14+ years across airports, rail, and giga-projects.">
+    <meta name="theme-color" content="#0a0a0f">
+    <title>Sajid Ghafoor | Enterprise Risk & Infrastructure Leadership</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen" aria-hidden="true">
+        <div class="loading-content">
+            <div class="loading-initials">SG</div>
+            <div class="loading-line"></div>
+            <p class="loading-text">Engineering Certainty</p>
+        </div>
+    </div>
+
+    <!-- Custom Cursor
+    <div class="cursor-dot" id="cursorDot" aria-hidden="true"></div>
+    <div class="cursor-ring" id="cursorRing" aria-hidden="true"></div> -->
+
+    <!-- Scroll Progress -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden="true"></div>
+
+    <!-- Particle Canvas -->
+    <canvas id="particleCanvas" class="particle-canvas" aria-hidden="true"></canvas>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="Sajid Ghafoor Home">
+                <span class="logo-text">SAJID<span class="logo-accent">GHAFOOR</span></span>
+                <span class="logo-subtitle">Enterprise Risk Leadership</span>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+                <span class="nav-toggle-line"></span>
+            </button>
+            <ul class="nav-links" id="navLinks" role="menubar">
+                <li role="none"><a href="#hero" class="nav-link active" role="menuitem" data-section="hero">Home</a></li>
+                <li role="none"><a href="#profile" class="nav-link" role="menuitem" data-section="profile">Profile</a></li>
+                <li role="none"><a href="#experience" class="nav-link" role="menuitem" data-section="experience">Experience</a></li>
+                <li role="none"><a href="#expertise" class="nav-link" role="menuitem" data-section="expertise">Expertise</a></li>
+                <li role="none"><a href="#vision2030" class="nav-link" role="menuitem" data-section="vision2030">Vision 2030</a></li>
+                <li role="none"><a href="#projects" class="nav-link" role="menuitem" data-section="projects">Projects</a></li>
+                <li role="none"><a href="#contact" class="nav-link nav-cta" role="menuitem" data-section="contact">Connect</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- HERO SECTION -->
+        <section class="hero-section" id="hero" aria-labelledby="hero-heading">
+            <div class="hero-overlay"></div>
+            <div class="hero-grid-bg" aria-hidden="true"></div>
+            <div class="hero-content">
+                <div class="hero-badge reveal-element">
+                    <span class="badge-dot"></span> Enterprise Risk & Infrastructure Leadership
+                </div>
+                <h1 class="hero-heading reveal-element" id="hero-heading">
+                    <span class="hero-line-1">Engineering Certainty</span>
+                    <span class="hero-line-2">in Complex Environments</span>
+                </h1>
+                <p class="hero-subheading reveal-element">
+                    14+ years of experience delivering enterprise risk frameworks, governance strategies, and infrastructure project assurance across airports, rail, transportation, and giga-project ecosystems in the Gulf region.
+                </p>
+                <div class="hero-ctas reveal-element">
+                    <a href="#contact" class="cta-primary magnetic-btn">
+                        <span>Strategic Consultation</span>
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                    </a>
+                    <a href="#profile" class="cta-secondary magnetic-btn">
+                        <span>Explore Profile</span>
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg>
+                    </a>
+                </div>
+                <div class="hero-stats reveal-element">
+                    <div class="hero-stat">
+                        <span class="stat-number" data-count="14">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number" data-count="50">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Mega Projects</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-number" data-count="8">0</span>
+                        <span class="stat-plus">+</span>
+                        <span class="stat-label">Enterprise Programs</span>
+                    </div>
+                    <div class="hero-stat">
+                        <span class="stat-label">Saudi Vision</span>
+                        <span class="stat-highlight">2030</span>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-floating-elements" aria-hidden="true">
+                <div class="floating-elem elem-1"></div>
+                <div class="floating-elem elem-2"></div>
+                <div class="floating-elem elem-3"></div>
+                <div class="floating-elem elem-4"></div>
+            </div>
+        </section>
+
+        <!-- EXECUTIVE PROFILE SECTION -->
+        <section class="profile-section" id="profile" aria-labelledby="profile-heading">
+            <div class="section-container">
+                <div class="section-label reveal-element">Executive Profile</div>
+                <h2 class="section-heading reveal-element" id="profile-heading">Strategic Risk Leadership for the<br>World's Most Ambitious Infrastructure</h2>
+                <div class="profile-grid">
+                    <div class="profile-image-col reveal-element">
+                        <div class="profile-image-placeholder">
+                            <div class="profile-image-inner">
+                                <svg viewBox="0 0 200 200" class="profile-silhouette" aria-hidden="true">
+                                    <circle cx="100" cy="70" r="45" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+                                    <path d="M30 200 Q30 120 100 120 Q170 120 170 200" fill="none" stroke="currentColor" stroke-width="1.5" opacity="0.6"/>
+                                </svg>
+                                <div class="profile-glow-ring"></div>
+                            </div>
+                            <div class="profile-accent-card">
+                                <span class="accent-number">14+</span>
+                                <span class="accent-text">Years of Enterprise Risk Excellence</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="profile-info-col reveal-element">
+                        <div class="profile-intro">
+                            <h3 class="profile-name">Sajid Ghafoor</h3>
+                            <p class="profile-title">Programme Risk Manager | Enterprise Risk Governance | Infrastructure Strategy</p>
+                            <p class="profile-description">
+                                A seasoned enterprise risk leader with deep expertise in orchestrating comprehensive risk management frameworks for multi-billion-dollar infrastructure programs. Combining engineering precision with strategic foresight, Sajid has been instrumental in safeguarding some of the Gulf region's most transformative mega projects — from international airports to expansive rail networks and visionary urban developments aligned with Saudi Vision 2030.
+                            </p>
+                            <p class="profile-description">
+                                His approach integrates rigorous risk governance, PMO strategy, project controls, and stakeholder coordination, ensuring that complex infrastructure investments are delivered with confidence, resilience, and measurable outcomes.
+                            </p>
+                        </div>
+                        <div class="profile-tags reveal-element">
+                            <span class="profile-tag">Programme Risk Manager</span>
+                            <span class="profile-tag">Enterprise Risk Governance</span>
+                            <span class="profile-tag">Infrastructure Strategy</span>
+                            <span class="profile-tag">PMO & Project Controls</span>
+                            <span class="profile-tag">Risk Transformation</span>
+                            <span class="profile-tag">Strategic Planning</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="sector-cards reveal-element">
+                    <div class="sector-card">
+                        <div class="sector-icon">✈</div>
+                        <span>Airports</span>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-icon">🚄</div>
+                        <span>Rail Infrastructure</span>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-icon">🏗</div>
+                        <span>High-Rise Developments</span>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-icon">🌉</div>
+                        <span>Roads & Bridges</span>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-icon">🚇</div>
+                        <span>Transportation Systems</span>
+                    </div>
+                    <div class="sector-card">
+                        <div class="sector-icon">🏛</div>
+                        <span>Enterprise PMCs</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERIENCE TIMELINE SECTION -->
+        <section class="experience-section" id="experience" aria-labelledby="experience-heading">
+            <div class="section-container">
+                <div class="section-label reveal-element">Career Trajectory</div>
+                <h2 class="section-heading reveal-element" id="experience-heading">A Journey of Escalating<br>Strategic Responsibility</h2>
+                <div class="timeline" id="timeline">
+                    <div class="timeline-line" aria-hidden="true"></div>
+                    <div class="timeline-progress" id="timelineProgress" aria-hidden="true"></div>
+
+                    <div class="timeline-item reveal-element" data-timeline-index="0">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-year">Early Career</div>
+                            <h3 class="timeline-role">QA & Risk Engineer</h3>
+                            <p class="timeline-company">Leading Engineering Consultancies</p>
+                            <p class="timeline-desc">Established foundational expertise in quality assurance and risk engineering for complex infrastructure projects, developing rigorous analytical methodologies.</p>
+                            <ul class="timeline-achievements">
+                                <li>Developed risk assessment protocols</li>
+                                <li>QA/QC for major civil infrastructure</li>
+                                <li>Foundation of enterprise risk methodology</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-element" data-timeline-index="1">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-year">Mid Career</div>
+                            <h3 class="timeline-role">Risk Engineer → Lead Risk Engineer</h3>
+                            <p class="timeline-company">International Infrastructure Programs</p>
+                            <p class="timeline-desc">Advanced to lead risk engineering roles, spearheading risk identification, quantification, and mitigation strategies for multi-stakeholder infrastructure programs.</p>
+                            <ul class="timeline-achievements">
+                                <li>Led risk workshops for $1B+ programs</li>
+                                <li>Quantitative risk analysis (QRA) expertise</li>
+                                <li>Integrated risk reporting frameworks</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-element" data-timeline-index="2">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-card glass-card">
+                            <div class="timeline-year">Senior Leadership</div>
+                            <h3 class="timeline-role">Risk Manager</h3>
+                            <p class="timeline-company">Bahrain International Airport & Gulf Mega Projects</p>
+                            <p class="timeline-desc">Managed enterprise-wide risk frameworks for the Bahrain International Airport expansion and other landmark Gulf infrastructure initiatives.</p>
+                            <ul class="timeline-achievements">
+                                <li>Bahrain International Airport risk leadership</li>
+                                <li>Enterprise risk governance implementation</li>
+                                <li>Board-level risk reporting</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item reveal-element active-timeline" data-timeline-index="3">
+                        <div class="timeline-dot glow-dot"></div>
+                        <div class="timeline-card glass-card featured-card">
+                            <div class="timeline-year current">Current Role</div>
+                            <h3 class="timeline-role">Programme Risk Manager</h3>
+                            <p class="timeline-company">Saudi Mega Projects & Infrastructure PMCs</p>
+                            <p class="timeline-desc">Orchestrating comprehensive programme risk management for Saudi Vision 2030 giga-projects, including rail infrastructure, transportation networks, and urban development programs.</p>
+                            <ul class="timeline-achievements">
+                                <li>Saudi Vision 2030 giga-project risk leadership</li>
+                                <li>Enterprise PMO risk integration</li>
+                                <li>Strategic risk transformation programs</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- EXPERTISE SECTION -->
+        <section class="expertise-section" id="expertise" aria-labelledby="expertise-heading">
+            <div class="section-container">
+                <div class="section-label reveal-element">Core Competencies</div>
+                <h2 class="section-heading reveal-element" id="expertise-heading">Mastery Across the<br>Risk Management Spectrum</h2>
+                <div class="expertise-grid">
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="3" x2="9" y2="21"/></svg>
+                        </div>
+                        <h3>Enterprise Risk Management</h3>
+                        <p>Comprehensive frameworks integrating risk across all organizational levels for strategic decision-making.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+                        </div>
+                        <h3>Risk Governance</h3>
+                        <p>Board-level governance structures ensuring accountability, transparency, and robust risk oversight.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><polygon points="12 2 22 8.5 22 15.5 12 22 2 15.5 2 8.5"/></svg>
+                        </div>
+                        <h3>Infrastructure Delivery</h3>
+                        <p>Ensuring mega infrastructure projects meet time, cost, and quality targets through proactive risk mitigation.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg>
+                        </div>
+                        <h3>PMO Strategy</h3>
+                        <p>Strategic PMO integration aligning risk management with program controls and organizational objectives.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 20V10"/><path d="M18 20V4"/><path d="M6 20v-6"/></svg>
+                        </div>
+                        <h3>Project Controls</h3>
+                        <p>Integrated controls ensuring schedule, cost, and risk alignment across complex program environments.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M8 12l3 3 5-5"/></svg>
+                        </div>
+                        <h3>Risk Mitigation</h3>
+                        <p>Proactive identification and mitigation strategies protecting billion-dollar infrastructure investments.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><line x1="8.7" y1="10.7" x2="15.3" y2="6.3"/><line x1="8.7" y1="13.3" x2="15.3" y2="17.7"/></svg>
+                        </div>
+                        <h3>Stakeholder Coordination</h3>
+                        <p>Orchestrating multi-stakeholder alignment across government, private, and international entities.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                        </div>
+                        <h3>Opportunity Management</h3>
+                        <p>Turning risk into strategic opportunity through value engineering and proactive program optimization.</p>
+                    </div>
+                    <div class="expertise-card glass-card reveal-element">
+                        <div class="expertise-glow"></div>
+                        <div class="expertise-icon-wrap">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+                        </div>
+                        <h3>Risk Framework Development</h3>
+                        <p>Bespoke risk frameworks tailored to the unique demands of giga-project environments and enterprise ecosystems.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- SAUDI VISION 2030 SECTION -->
+        <section class="vision-section" id="vision2030" aria-labelledby="vision-heading">
+            <div class="vision-bg-pattern" aria-hidden="true"></div>
+            <div class="vision-glow-orb vision-orb-1" aria-hidden="true"></div>
+            <div class="vision-glow-orb vision-orb-2" aria-hidden="true"></div>
+            <div class="section-container">
+                <div class="vision-content">
+                    <div class="vision-badge reveal-element">
+                        <span class="badge-dot gold-dot"></span> Saudi Vision 2030 Alignment
+                    </div>
+                    <h2 class="section-heading vision-heading reveal-element" id="vision-heading">
+                        Engineering the Future<br>
+                        <span class="vision-highlight">of the Kingdom</span>
+                    </h2>
+                    <p class="vision-description reveal-element">
+                        At the forefront of Saudi Arabia's unprecedented infrastructure transformation, Sajid Ghafoor delivers enterprise risk leadership for the giga-projects reshaping the nation's economic landscape. From futuristic urban developments to next-generation transportation networks, his strategic oversight ensures these visionary initiatives are delivered with world-class governance and precision.
+                    </p>
+                    <div class="vision-pillars reveal-element">
+                        <div class="vision-pillar">
+                            <span class="pillar-number">01</span>
+                            <h4>Mega Infrastructure</h4>
+                            <p>Risk governance for the world's largest and most ambitious construction programs</p>
+                        </div>
+                        <div class="vision-pillar">
+                            <span class="pillar-number">02</span>
+                            <h4>Future Cities</h4>
+                            <p>Strategic risk frameworks for smart city and urban innovation initiatives</p>
+                        </div>
+                        <div class="vision-pillar">
+                            <span class="pillar-number">03</span>
+                            <h4>Engineering Innovation</h4>
+                            <p>Integrating cutting-edge methodologies with enterprise risk transformation</p>
+                        </div>
+                        <div class="vision-pillar">
+                            <span class="pillar-number">04</span>
+                            <h4>Infrastructure Modernization</h4>
+                            <p>Future-proofing national assets through robust risk and governance strategies</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="vision-visual reveal-element" aria-hidden="true">
+                    <div class="vision-geometric">
+                        <div class="geo-ring geo-ring-1"></div>
+                        <div class="geo-ring geo-ring-2"></div>
+                        <div class="geo-ring geo-ring-3"></div>
+                        <div class="geo-center-dot"></div>
+                        <div class="geo-grid-lines"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT SHOWCASE SECTION -->
+        <section class="projects-section" id="projects" aria-labelledby="projects-heading">
+            <div class="section-container">
+                <div class="section-label reveal-element">Portfolio of Impact</div>
+                <h2 class="section-heading reveal-element" id="projects-heading">Landmark Programs &<br>Infrastructure Excellence</h2>
+                <div class="projects-scroll-wrapper" id="projectsScroll">
+                    <div class="projects-track" id="projectsTrack">
+                        <div class="project-card glass-card reveal-element">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category">Aviation Infrastructure</div>
+                            <h3 class="project-name">Bahrain International Airport</h3>
+                            <p class="project-role">Strategic Role: Enterprise Risk Manager</p>
+                            <p class="project-focus">Risk Focus: Programme-wide risk governance, stakeholder coordination, and mitigation strategy for the landmark airport expansion program.</p>
+                            <div class="project-tags">
+                                <span>Risk Governance</span>
+                                <span>Airport Infrastructure</span>
+                                <span>Stakeholder Management</span>
+                            </div>
+                        </div>
+                        <div class="project-card glass-card reveal-element">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category">Rail Infrastructure</div>
+                            <h3 class="project-name">Gulf Rail Programs</h3>
+                            <p class="project-role">Strategic Role: Programme Risk Manager</p>
+                            <p class="project-focus">Risk Focus: Comprehensive risk frameworks for cross-border rail infrastructure connecting major Gulf economic hubs.</p>
+                            <div class="project-tags">
+                                <span>Rail Systems</span>
+                                <span>Cross-Border Coordination</span>
+                                <span>Mega Program Risk</span>
+                            </div>
+                        </div>
+                        <div class="project-card glass-card reveal-element">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category">Giga-Projects</div>
+                            <h3 class="project-name">Saudi Mega Developments</h3>
+                            <p class="project-role">Strategic Role: Senior Risk Advisor</p>
+                            <p class="project-focus">Risk Focus: Enterprise risk leadership for Saudi Vision 2030 giga-projects, integrating PMO controls with strategic risk governance.</p>
+                            <div class="project-tags">
+                                <span>Vision 2030</span>
+                                <span>Giga-Project Risk</span>
+                                <span>Enterprise PMO</span>
+                            </div>
+                        </div>
+                        <div class="project-card glass-card reveal-element">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category">Transportation Systems</div>
+                            <h3 class="project-name">Urban Transit Networks</h3>
+                            <p class="project-role">Strategic Role: Risk Governance Lead</p>
+                            <p class="project-focus">Risk Focus: Integrated risk management for complex urban transportation systems across metropolitan Gulf cities.</p>
+                            <div class="project-tags">
+                                <span>Urban Transit</span>
+                                <span>Systems Integration</span>
+                                <span>Operational Risk</span>
+                            </div>
+                        </div>
+                        <div class="project-card glass-card reveal-element">
+                            <div class="project-card-glow"></div>
+                            <div class="project-category">Infrastructure PMCs</div>
+                            <h3 class="project-name">Enterprise Programme Management</h3>
+                            <p class="project-role">Strategic Role: Programme Risk Manager</p>
+                            <p class="project-focus">Risk Focus: Leading risk transformation for major PMCs delivering complex infrastructure portfolios across the Gulf region.</p>
+                            <div class="project-tags">
+                                <span>PMC Leadership</span>
+                                <span>Risk Transformation</span>
+                                <span>Portfolio Governance</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="projects-nav reveal-element" aria-hidden="true">
+                    <button class="project-nav-btn" id="projectsPrev" aria-label="Scroll projects left">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="15 18 9 12 15 6"/></svg>
+                    </button>
+                    <button class="project-nav-btn" id="projectsNext" aria-label="Scroll projects right">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 6 15 12 9 18"/></svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- RECOMMENDATIONS SECTION -->
+        <section class="recommendations-section" id="recommendations" aria-labelledby="rec-heading">
+            <div class="section-container">
+                <div class="section-label reveal-element">Peer Recognition</div>
+                <h2 class="section-heading reveal-element" id="rec-heading">Trusted by Industry Leaders</h2>
+                <div class="rec-slider" id="recSlider">
+                    <div class="rec-track" id="recTrack">
+                        <div class="rec-card glass-card">
+                            <div class="rec-quote-icon">"</div>
+                            <p class="rec-text">Sajid brings a rare combination of strategic foresight and engineering precision. His enterprise risk frameworks have been instrumental in safeguarding our most critical infrastructure investments.</p>
+                            <div class="rec-author">
+                                <div class="rec-avatar"></div>
+                                <div>
+                                    <strong>Senior Executive</strong>
+                                    <span>Infrastructure PMC, Gulf Region</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rec-card glass-card">
+                            <div class="rec-quote-icon">"</div>
+                            <p class="rec-text">A consummate professional with an extraordinary ability to navigate complex stakeholder environments. His risk governance expertise is world-class and deeply respected across the industry.</p>
+                            <div class="rec-author">
+                                <div class="rec-avatar"></div>
+                                <div>
+                                    <strong>Programme Director</strong>
+                                    <span>Mega Infrastructure Program</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rec-card glass-card">
+                            <div class="rec-quote-icon">"</div>
+                            <p class="rec-text">Working with Sajid means working with absolute confidence. His risk mitigation strategies are thorough, innovative, and consistently delivered with executive-level precision.</p>
+                            <div class="rec-author">
+                                <div class="rec-avatar"></div>
+                                <div>
+                                    <strong>Chief Operating Officer</strong>
+                                    <span>International Engineering Consultancy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="rec-dots reveal-element" id="recDots" aria-hidden="true"></div>
+            </div>
+        </section>
+
+        <!-- THOUGHT LEADERSHIP SECTION -->
+        <section class="thought-section" id="thought-leadership" aria-labelledby="thought-heading">
+            <div class="section-container">
+                <div class="section-label reveal-element">Thought Leadership</div>
+                <h2 class="section-heading reveal-element" id="thought-heading">Insights on Risk &<br>Infrastructure Strategy</h2>
+                <div class="thought-grid">
+                    <article class="thought-card glass-card reveal-element">
+                        <div class="thought-image-placeholder"></div>
+                        <div class="thought-content">
+                            <span class="thought-category">Enterprise Risk</span>
+                            <h3>The Evolution of Risk Governance in Mega Infrastructure Programs</h3>
+                            <p>How enterprise risk frameworks are transforming the delivery of billion-dollar infrastructure initiatives across the Gulf.</p>
+                            <a href="#" class="thought-link magnetic-btn-small">Read Insight →</a>
+                        </div>
+                    </article>
+                    <article class="thought-card glass-card reveal-element">
+                        <div class="thought-image-placeholder"></div>
+                        <div class="thought-content">
+                            <span class="thought-category">Infrastructure Governance</span>
+                            <h3>Integrating PMO Strategy with Enterprise Risk Management</h3>
+                            <p>A strategic approach to aligning program controls with comprehensive risk governance for complex infrastructure portfolios.</p>
+                            <a href="#" class="thought-link magnetic-btn-small">Read Insight →</a>
+                        </div>
+                    </article>
+                    <article class="thought-card glass-card reveal-element">
+                        <div class="thought-image-placeholder"></div>
+                        <div class="thought-content">
+                            <span class="thought-category">Future of Infrastructure</span>
+                            <h3>Saudi Vision 2030: Risk Leadership for Giga-Project Ecosystems</h3>
+                            <p>Examining the unique risk challenges and strategic opportunities within the Kingdom's unprecedented infrastructure transformation.</p>
+                            <a href="#" class="thought-link magnetic-btn-small">Read Insight →</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT / CTA SECTION -->
+        <section class="contact-section" id="contact" aria-labelledby="contact-heading">
+            <div class="contact-bg-glow" aria-hidden="true"></div>
+            <div class="section-container">
+                <div class="contact-grid">
+                    <div class="contact-info-col reveal-element">
+                        <div class="section-label">Executive Contact</div>
+                        <h2 class="section-heading" id="contact-heading">Let's Build Resilient Infrastructure for the Future.</h2>
+                        <p class="contact-description">
+                            Available for strategic consulting, board advisory, and enterprise risk transformation engagements. Connect to discuss how world-class risk governance can elevate your infrastructure programs.
+                        </p>
+                        <div class="contact-details">
+                            <div class="contact-detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                                <span>strategic@sajidghafoor.com</span>
+                            </div>
+                            <div class="contact-detail-item">
+                                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                                <span>Gulf Region · Saudi Arabia · Bahrain</span>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <a href="#" class="social-link magnetic-btn-small" aria-label="LinkedIn Profile">LinkedIn</a>
+                            <a href="#" class="social-link magnetic-btn-small" aria-label="Email Contact">Email</a>
+                        </div>
+                    </div>
+                    <div class="contact-form-col reveal-element">
+                        <form class="contact-form glass-card" id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="Your email address" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="organization">Organization</label>
+                                <input type="text" id="organization" name="organization" placeholder="Your company or organization">
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="4" placeholder="Describe your infrastructure risk or governance requirements..." required></textarea>
+                            </div>
+                            <button type="submit" class="cta-primary form-submit magnetic-btn">
+                                <span>Send Strategic Inquiry</span>
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer" role="contentinfo">
+        <div class="section-container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-text">SAJID<span class="logo-accent">GHAFOOR</span></span>
+                    <span class="footer-tagline">Enterprise Risk & Infrastructure Leadership</span>
+                </div>
+                <p class="footer-copy">&copy; <span id="currentYear"></span> Sajid Ghafoor. All rights reserved. Engineering Certainty in Complex Environments.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
